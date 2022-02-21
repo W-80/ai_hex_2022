@@ -23,6 +23,7 @@ class HexAgent extends Agent {
         let size = board.length;
         let available = getEmptyHex(board);
         let nTurn = size * size - available.length;
+        /*
         if (nTurn == 0) { // First move
             console.log([Math.floor(size / 2), Math.floor(size / 2) - 1])
             return [Math.floor(size / 2), Math.floor(size / 2) - 1];
@@ -32,7 +33,7 @@ class HexAgent extends Agent {
         }
         //let move = available[Math.round(Math.random() * (available.length - 1))];
         //return [Math.floor(move / board.length), move % board.length]; 
-
+*/
 
     if (this.id === '2') {
         let boardT = transpose(board)
